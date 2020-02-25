@@ -55,7 +55,7 @@
 #' set.seed(123)
 #' 
 #' # Run FDR smoothing
-#' res <- smoothFDR(DNAm, probe = 'cpg')
+#' res <- smoothFDR(DNAm, probe = 'cpg', parallel = FALSE)
 #' 
 #' # Compare q-values to Benjamini-Hochberg estimates
 #' sum(res$BH_q.value <= 0.05)
