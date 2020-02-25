@@ -4,5 +4,6 @@
 .Ruserdata
 .DS_Store
 .Rapp.history
+.Rbuildignore
 smoothFDR.Rproj
 other/
