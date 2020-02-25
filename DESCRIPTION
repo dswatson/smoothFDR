@@ -1,0 +1,18 @@
+Package: smoothFDR
+Type: Package
+Title: An empirical Bayes method for exploiting spatial structure in large 
+  multiple-testing problems
+Version: 0.9
+Date: 2020-02-25
+Authors@R: c(person("David", "Watson", email = "david.s.watson11@gmail.com", 
+  role = c("aut", "cre")), 
+  person("Wesley", "Tansey", email = "wes.tansey@gmail.com", 
+  role = c("aut")))
+Description: FDR smoothing automatically finds spatially localized regions of 
+  significant test statistics. It then relaxes the threshold of statistical 
+  significance within these regions and tightens it elsewhere, in a manner that 
+  controls the overall false discovery rate at a given level.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
