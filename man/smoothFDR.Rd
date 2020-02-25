@@ -60,7 +60,7 @@ for details.
 }
 \examples{
 # Import data
-data('DNAm_chr1')
+data('DNAm_chr13')
 
 # Set seed
 set.seed(123)
