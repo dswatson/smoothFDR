@@ -60,16 +60,16 @@ for details.
 }
 \examples{
 # Import data
-data('DNAm_chr13')
+data('DNAm')
 
 # Set seed
 set.seed(123)
 
 # Run FDR smoothing
-res <- smoothFDR(DNAm_chr1)
+res <- smoothFDR(DNAm, probe = 'cpg')
 
 # Compare q-values to Benjamini-Hochberg estimates
-sum(res$BH <= 0.05)
+sum(res$BH_q.value <= 0.05)
 sum(res$q.value <= 0.05)
 
 }
