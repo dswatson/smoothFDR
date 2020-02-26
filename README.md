@@ -48,7 +48,7 @@ sum(res$BH_q.value <= 0.05)
     ## [1] 0
 
 ``` r
-# How many according to the smooth FDR estimate?
+# How many according to smooth FDR?
 sum(res$q.value <= 0.05)
 ```
 
