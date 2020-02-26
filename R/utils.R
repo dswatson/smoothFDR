@@ -12,7 +12,7 @@ smooth_fdr <- function(probe, z, pos, chr, nulltype, nlambda, tol, maxit) {
   ### Part I: Estimate null and alternative distros
   n <- length(z)
   x <- pos - min(pos) + 1
-  fdr1 <- FDRreg2(z, x, nulltype = nulltype)
+  fdr1 <- FDRreg(z, x, nulltype = nulltype)
   f0 <- fdr1$M0
   f1 <- fdr1$M1
   p0 <- fdr1$p0
