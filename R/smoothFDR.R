@@ -67,7 +67,6 @@
 #' @import dplyr
 #' 
 
-
 smoothFDR <- function(dat, 
                       probe = 'probe', 
                       z = 'z', 
