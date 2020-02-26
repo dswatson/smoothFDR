@@ -5,7 +5,7 @@ Title: An empirical Bayes method for exploiting spatial structure in large
 Version: 0.9
 Date: 2020-02-26
 Authors@R: c(person("David", "Watson", email = "david.s.watson11@gmail.com", 
-  role = c("aut", "cre")), 
+  role = c("aut", "cre"), comment = c(ORCID = "0000-0001-9632-2159")), 
   person("Wesley", "Tansey", email = "wes.tansey@gmail.com", 
   role = c("aut")))
 Description: FDR smoothing automatically finds spatially localized regions of 
